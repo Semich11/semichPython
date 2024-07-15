@@ -1,0 +1,7 @@
+print('number' \t 'square' \t 'cube')
+print('0' \t '0**2' \t '0**4')
+print('1' \t '1**2' \t '1**4')
+print('2' \t '2**2' \t '2**4')
+print('3' \t '3**2' \t '3**4')
+print('4' \t '4**2' \t '4**4')
+print('5' \t '5**2' \t '5**4')
