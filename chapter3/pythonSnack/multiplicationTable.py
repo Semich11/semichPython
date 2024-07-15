@@ -2,7 +2,7 @@
 
 
 
-userInput = 6
+userInput = int(intput("Enter a number: "))
 
 
 for number in range(1, 11):
