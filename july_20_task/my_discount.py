@@ -3,9 +3,9 @@
 def my_discount(price, discount):
 
 
-	dicounted = price / 100 * 15
+	discount_price = price / 100 * discount
 
-	new_price = price - dicounted
+	new_price = price - discount_price
 
 	return new_price
 
