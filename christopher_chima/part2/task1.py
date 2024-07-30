@@ -6,8 +6,11 @@ Step 04: use a for loop to loop the amount of the length of the string in Step 0
 Step 05: collect element from the string variable and convert it to integer
 Step 06: add the integer gotten from Step 05: to the variable declare in Step 01
 Step 07: convert the variable in Step 01 to integer
-Step 08: if the integer gotten in step 05 is greater than 0 break the loop
+Step 08: if the integer gotten in step 05 is greater than 0 break the loop, else back to Step04.
 
+once Step 04 loop is done continue. 
+
+Step 09: check if the integer in Step 06 modulo 2 is greater 0, print number ending with ","
 
 
 
