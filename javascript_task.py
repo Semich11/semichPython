@@ -5,20 +5,21 @@
 
 
 
-# user_input = [1,1,2,3,2]
-# user_input = [5,4,5,6,7,6]
+# user_input = [1,1,2,3,2] // [1,2,3]
+# user_input = [5,4,5,6,7,6] // [4,5,6,7]
 def occurrence_count(user_input):
 
     out_put = {}
 
     to_set = set(user_input)
+
     count = 0
-    for _ in to_set:
+    for unique_element in to_set:
         for i in user_input:
-            if _ == i:
+            if unique_element == i:
                 count += 1
 
-        out_put.update({_:count})
+        out_put.update({unique_element: count})
         count = 0
 
     return out_put
